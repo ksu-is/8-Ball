@@ -1,18 +1,36 @@
 '''
+"Project name:8 ball Game"
+
+"Author: Zainab Moshood & Kayla Mitchell"
+
+"Date: November 11,2018"
+
+
+
+"Description: This 8-ball game will generates random numbers to create a fortune-telling game that provides randomly selected answers to the player's questions."
+
 
 '''
 
 import random
 import sys
 
+print('Hello! My name is 8-Ball. What is your name?')
+myname = input()
+
+print( 'Do you want to play? [Y] ')
+answer = input()
+print( 'press N to quit whenever you are ready to quit the game) ')
+answer == 'N'
+
 ans = True
 
 while ans:
-    question =input ("Ask the magic 8 ball a question: (press enter to quit) ")
+    question =input ("Ask the magic 8 ball a question: (press N to quit) ")
     
     answers = random.randint(1,8)
     
-    if question == "":
+    if question == "N":
         sys.exit()
     
     elif answers == 1:
@@ -39,13 +57,6 @@ while ans:
     elif answers == 8:
         print ("My reply is yes")
 
-def Replay():
-    print ('Do you have another question? [Y/N] ')
-    reply = input()
-    if reply == 'Y':
-        Magic8Ball()
-    elif reply == 'N':
-        exit()
     else:
         print('I apologies, I did not catch that. Please repeat.')
         Replay()
