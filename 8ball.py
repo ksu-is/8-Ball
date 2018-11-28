@@ -31,7 +31,7 @@ while ans:
     answers = random.randint(1,8)
     
     if question == "N":
-        print("Thank You for Playing!")
+        print("Thank You for Playing, See you next Time!")
         sys.exit()
     
     elif answers == 1:
