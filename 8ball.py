@@ -1,9 +1,9 @@
 '''
 "Project name:8 ball Game"
 
-"Author: Zainab Moshood & Kayla Mitchell"
+"Author: Zainab Moshood and Kayla Mitchell"
 
-"Date: November 11,2018"
+"Date: December 4th, 2018"
 
 
 
