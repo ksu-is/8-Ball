@@ -1,5 +1,5 @@
 '''
-"Project name:8 ball Game"
+"Project name: Magic 8 Ball Game"
 
 "Author: Zainab Moshood and Kayla Mitchell"
 
