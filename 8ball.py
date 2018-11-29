@@ -41,7 +41,7 @@ while ans:
         print ("If I told you, I'd have to kill you")
     
     elif answers == 3:
-        print ("The only way you'll ever get that answer from me is to pry it from my cold, dead hands.")
+        print ("The only way you'll ever get that answer me if you kiss me.")
     
     elif answers == 4:
         print ("If I told you, I'd have to kill you")
