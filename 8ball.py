@@ -20,7 +20,6 @@ myname = input()
 
 print( 'Do you want to play? [Y] ')
 answer = input()
-print( 'press N to quit whenever you are ready to quit the game) ')
 answer == 'N'
 
 ans = True
@@ -31,7 +30,7 @@ while ans:
     answers = random.randint(1,8)
     
     if question == "N":
-        print("Oh No!, See you next Time")
+        print("OH NO!, See you next time!")
         sys.exit()
     
     elif answers == 1:
@@ -61,3 +60,4 @@ while ans:
     else:
         print('I apologies, I did not catch that. Please repeat.')
         Replay()
+
